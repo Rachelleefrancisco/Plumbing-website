@@ -1,0 +1,146 @@
+/* Default Light Mode */
+body {
+  font-family: Georgia, 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fdfaf6;
+  color: #3e3b32;
+  line-height: 1.6;
+}
+
+nav {
+  background-color: #5a4634;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: #fdfaf6;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #d4af37;
+}
+
+#mode-toggle {
+  background: #d4af37;
+  border: none;
+  padding: 6px 12px;
+  margin-left: 15px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+header, .page-header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 20px;
+  text-align: center;
+}
+
+section h2 {
+  color: #5a4634;
+  border-bottom: 2px solid #d4af37;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.service-card {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+}
+
+.service-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: #5a4634;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+}
+
+.cta-btn:hover {
+  background: #d4af37;
+  color: #000;
+}
+
+.ceo-img {
+  max-width: 300px;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+footer {
+  background-color: #5a4634;
+  color: #fdfaf6;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #1c1b19;
+  color: #fdfaf6;
+}
+
+body.dark-mode nav {
+  background-color: #2b2218;
+}
+
+body.dark-mode nav a {
+  color: #fdfaf6;
+}
+
+body.dark-mode section h2 {
+  color: #d4af37;
+  border-bottom-color: #d4af37;
+}
+
+body.dark-mode .service-card {
+  background: #2b2218;
+  border: 1px solid #444;
+}
+
+body.dark-mode footer {
+  background-color: #2b2218;
+}
